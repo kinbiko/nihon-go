@@ -9,3 +9,7 @@
 
 Go functions related to the Japanese language.
 
+## Usage
+
+- Convert romaji to kana with `RomajiToKana`.
+- Extract all unique kanji in a string with `UniqueKanji`
