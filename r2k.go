@@ -17,12 +17,12 @@ func (ks kanas) String() string {
 	return res
 }
 
-// ToKana returns the kana equivalent of the given romaji string.
+// RomajiToKana returns the kana equivalent of the given romaji string.
 // The input is assumed to have no punctuation, whitespace, and consist strictly of English characters.
 // Any unexpected characters found in the input string will result in an error.
 // Capitalised letters will be converted into katakana, while lower-cased letters are treated as hiragana.
 // E.g. "a" -> "あ", and "A" -> "ア"
-func ToKana(in string) (string, error) {
+func RomajiToKana(in string) (string, error) {
 	var (
 		rev kanas
 		top = len(in)
