@@ -16,7 +16,7 @@ func TestFindsUniqueKanji(t *testing.T) {
 		{in: "just english characters"},
 		{in: "ひらがな"},
 		{in: "カタカナ"},
-		{in: "々ヶ。、？！ー"},
+		{in: "々ヶ。、？！ー（）ＳｅＤ１６ＯＫＮＧ．Ｆ～２３"},
 		{in: "一", exp: []string{"一"}},
 		{in: "人人", exp: []string{"人"}},
 		{

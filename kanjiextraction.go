@@ -10,9 +10,9 @@ func UniqueKanji(in string) []string {
 		if r == '？' || r == '！' {
 			continue
 		}
-		// Values greater than the beginning of the the 'common' han ideographs.
-		// Definitely not bullet proof, but will do the trick for what I need
-		if r >= '\u4e00' {
+		// This range is definitely not bullet proof, but will do the trick for what I need
+		// Based on this answer: https://stackoverflow.com/a/11415841/2422278
+		if r >= '\u4e00' && r <= '\u9fcc' {
 			withDupes = append(withDupes, string(r))
 		}
 	}
