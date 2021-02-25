@@ -1,6 +1,7 @@
 # Nihon-Go
 
 [![Build Status](https://travis-ci.com/kinbiko/nihon-go.svg?branch=master)](https://travis-ci.com/kinbiko/nihon-go)
+[![Coverage Status](https://coveralls.io/repos/github/kinbiko/nihon-go/badge.svg?branch=master)](https://coveralls.io/github/kinbiko/nihon-go?branch=master)
 [![Go Report Card](https://goreportcard.com/badge/github.com/kinbiko/nihon-go)](https://goreportcard.com/report/github.com/kinbiko/nihon-go)
 [![Coverage Status](https://coveralls.io/repos/github/kinbiko/nihon-go/badge.svg)](https://coveralls.io/github/kinbiko/nihon-go)
 [![Latest version](https://img.shields.io/github/tag/kinbiko/nihon-go.svg?label=latest%20version&style=flat)](https://github.com/kinbiko/nihon-go/releases)
